@@ -1,0 +1,6 @@
+﻿  graph.cpp
+  logger.cpp
+  main.cpp
+C:\Users\Roma\source\repos\N4Task2\N4Task2\main.cpp(40,45): warning C4101: ia: неиспользованная локальная переменная
+  Создание кода...
+  N4Task2.vcxproj -> C:\Users\Roma\source\repos\N4Task2\x64\Debug\N4Task2.exe

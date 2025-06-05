@@ -1,0 +1,207 @@
+[2025-06-03 18:01:34.925] [INFO] Application started.
+[2025-06-03 18:01:34.930] [ERROR] Invalid number of command-line arguments. Expected 3, got 0
+[2025-06-03 18:01:34.930] [INFO] Application terminated due to incorrect arguments.
+[2025-06-03 18:01:34.930] [INFO] Logger stopped.
+[2025-06-03 18:02:43.209] [INFO] Application started.
+[2025-06-03 18:02:43.212] [ERROR] Invalid number of command-line arguments. Expected 3, got 0
+[2025-06-03 18:02:43.212] [INFO] Application terminated due to incorrect arguments.
+[2025-06-03 18:02:43.212] [INFO] Logger stopped.
+[2025-06-03 18:12:16.235] [INFO] Application started.
+[2025-06-03 18:12:16.238] [ERROR] Invalid number of command-line arguments. Expected 3, got 0
+[2025-06-03 18:12:16.238] [INFO] Application terminated due to incorrect arguments.
+[2025-06-03 18:12:16.238] [INFO] Logger stopped.
+[2025-06-06 00:35:02.943] [INFO] Application started.
+[2025-06-06 00:35:02.945] [DEBUG] Graph object created.
+[2025-06-06 00:35:02.945] [INFO] Loading graph from: input_graph.txt
+[2025-06-06 00:35:02.945] [INFO] Graph data cleared.
+[2025-06-06 00:35:02.945] [INFO] Attempting to load graph from file: input_graph.txt
+[2025-06-06 00:35:02.945] [INFO] Graph loaded successfully from input_graph.txt. Vertices count: 10
+[2025-06-06 00:35:02.945] [INFO] Calculating layers for graph, starting from vertex: 0
+[2025-06-06 00:35:02.945] [INFO] Calculating layers starting from vertex: 0
+[2025-06-06 00:35:02.945] [DEBUG] BFS queue initialized. Start vertex: 0, Layer: 0
+[2025-06-06 00:35:02.945] [DEBUG] Processing Layer 0. Nodes in queue for this layer: 1
+[2025-06-06 00:35:02.945] [DEBUG] Vertex 1 added to queue for layer 1
+[2025-06-06 00:35:02.945] [DEBUG] Vertex 2 added to queue for layer 1
+[2025-06-06 00:35:02.945] [DEBUG] Vertex 3 added to queue for layer 1
+[2025-06-06 00:35:02.945] [INFO] Layer 0 processed. Vertices: 0
+[2025-06-06 00:35:02.945] [DEBUG] Processing Layer 1. Nodes in queue for this layer: 3
+[2025-06-06 00:35:02.945] [DEBUG] Vertex 4 added to queue for layer 2
+[2025-06-06 00:35:02.945] [DEBUG] Vertex 5 added to queue for layer 2
+[2025-06-06 00:35:02.945] [DEBUG] Vertex 6 added to queue for layer 2
+[2025-06-06 00:35:02.946] [INFO] Layer 1 processed. Vertices: 1 2 3
+[2025-06-06 00:35:02.946] [DEBUG] Processing Layer 2. Nodes in queue for this layer: 3
+[2025-06-06 00:35:02.946] [DEBUG] Vertex 7 added to queue for layer 3
+[2025-06-06 00:35:02.946] [DEBUG] Vertex 8 added to queue for layer 3
+[2025-06-06 00:35:02.946] [DEBUG] Vertex 9 added to queue for layer 3
+[2025-06-06 00:35:02.946] [INFO] Layer 2 processed. Vertices: 4 5 6
+[2025-06-06 00:35:02.946] [DEBUG] Processing Layer 3. Nodes in queue for this layer: 3
+[2025-06-06 00:35:02.946] [INFO] Layer 3 processed. Vertices: 7 8 9
+[2025-06-06 00:35:02.946] [INFO] Layer calculation complete. Total layers found: 4
+[2025-06-06 00:35:02.946] [INFO] Saving layered vertices to: output_layers.txt
+[2025-06-06 00:35:02.946] [INFO] Attempting to save layered graph to file: output_layers.txt
+[2025-06-06 00:35:02.946] [INFO] Layered graph saved successfully to output_layers.txt
+[2025-06-06 00:35:02.946] [INFO] Processing completed successfully.
+[2025-06-06 00:35:02.946] [INFO] Application finished successfully.
+[2025-06-06 00:35:02.946] [INFO] Logger stopped.
+[2025-06-06 00:40:16.150] [INFO] Application started.
+[2025-06-06 00:40:16.151] [DEBUG] Graph object created.
+[2025-06-06 00:40:16.151] [INFO] Loading graph from: input_graph.txt
+[2025-06-06 00:40:16.151] [INFO] Graph data cleared.
+[2025-06-06 00:40:16.151] [INFO] Attempting to load graph from file: input_graph.txt
+[2025-06-06 00:40:16.152] [INFO] Graph loaded successfully. Vertices: 10
+[2025-06-06 00:40:16.152] [INFO] Calculating layers for graph, starting from vertex: 0
+[2025-06-06 00:40:16.152] [INFO] Calculating layers starting from vertex: 0
+[2025-06-06 00:40:16.152] [DEBUG] Vertex 1 added to layer 1
+[2025-06-06 00:40:16.152] [DEBUG] Vertex 2 added to layer 1
+[2025-06-06 00:40:16.152] [DEBUG] Vertex 3 added to layer 1
+[2025-06-06 00:40:16.152] [DEBUG] Vertex 4 added to layer 2
+[2025-06-06 00:40:16.152] [DEBUG] Vertex 5 added to layer 2
+[2025-06-06 00:40:16.152] [DEBUG] Vertex 6 added to layer 2
+[2025-06-06 00:40:16.152] [DEBUG] Vertex 7 added to layer 3
+[2025-06-06 00:40:16.152] [DEBUG] Vertex 8 added to layer 3
+[2025-06-06 00:40:16.152] [DEBUG] Vertex 9 added to layer 3
+[2025-06-06 00:40:16.152] [INFO] Layer 0 contains vertices: 0
+[2025-06-06 00:40:16.152] [INFO] Layer 1 contains vertices: 1, 2, 3
+[2025-06-06 00:40:16.152] [INFO] Layer 2 contains vertices: 4, 5, 6
+[2025-06-06 00:40:16.152] [INFO] Layer 3 contains vertices: 7, 8, 9
+[2025-06-06 00:40:16.152] [INFO] Saving layered vertices to: output_layers.txt
+[2025-06-06 00:40:16.152] [INFO] Attempting to save layered graph to file: output_layers.txt
+[2025-06-06 00:40:16.153] [INFO] Layered graph saved successfully to output_layers.txt
+[2025-06-06 00:40:16.153] [INFO] Processing completed successfully.
+[2025-06-06 00:40:16.153] [INFO] Application finished successfully.
+[2025-06-06 00:40:16.153] [INFO] Logger stopped.
+[2025-06-06 00:40:32.392] [INFO] Application started.
+[2025-06-06 00:40:32.393] [DEBUG] Graph object created.
+[2025-06-06 00:40:32.393] [INFO] Loading graph from: input_graph.txt
+[2025-06-06 00:40:32.393] [INFO] Graph data cleared.
+[2025-06-06 00:40:32.393] [INFO] Attempting to load graph from file: input_graph.txt
+[2025-06-06 00:40:32.393] [INFO] Graph loaded successfully. Vertices: 10
+[2025-06-06 00:40:32.393] [INFO] Calculating layers for graph, starting from vertex: 0
+[2025-06-06 00:40:32.394] [INFO] Calculating layers starting from vertex: 0
+[2025-06-06 00:40:32.394] [DEBUG] Vertex 1 added to layer 1
+[2025-06-06 00:40:32.394] [DEBUG] Vertex 2 added to layer 1
+[2025-06-06 00:40:32.394] [DEBUG] Vertex 3 added to layer 1
+[2025-06-06 00:40:32.394] [DEBUG] Vertex 4 added to layer 2
+[2025-06-06 00:40:32.394] [DEBUG] Vertex 5 added to layer 2
+[2025-06-06 00:40:32.394] [DEBUG] Vertex 6 added to layer 2
+[2025-06-06 00:40:32.394] [DEBUG] Vertex 7 added to layer 3
+[2025-06-06 00:40:32.394] [DEBUG] Vertex 8 added to layer 3
+[2025-06-06 00:40:32.394] [DEBUG] Vertex 9 added to layer 3
+[2025-06-06 00:40:32.394] [INFO] Layer 0 contains vertices: 0
+[2025-06-06 00:40:32.394] [INFO] Layer 1 contains vertices: 1, 2, 3
+[2025-06-06 00:40:32.394] [INFO] Layer 2 contains vertices: 4, 5, 6
+[2025-06-06 00:40:32.394] [INFO] Layer 3 contains vertices: 7, 8, 9
+[2025-06-06 00:40:32.394] [INFO] Saving layered vertices to: output_layers.txt
+[2025-06-06 00:40:32.394] [INFO] Attempting to save layered graph to file: output_layers.txt
+[2025-06-06 00:40:32.394] [INFO] Layered graph saved successfully to output_layers.txt
+[2025-06-06 00:40:32.395] [INFO] Processing completed successfully.
+[2025-06-06 00:40:32.395] [INFO] Application finished successfully.
+[2025-06-06 00:40:32.395] [INFO] Logger stopped.
+[2025-06-06 00:41:57.967] [INFO] Application started.
+[2025-06-06 00:41:57.968] [DEBUG] Graph object created.
+[2025-06-06 00:41:57.968] [INFO] Loading graph from: input_graph.txt
+[2025-06-06 00:41:57.968] [INFO] Graph data cleared.
+[2025-06-06 00:41:57.968] [INFO] Attempting to load graph from file: input_graph.txt
+[2025-06-06 00:41:57.968] [INFO] Graph loaded successfully. Vertices: 10
+[2025-06-06 00:41:57.968] [INFO] Calculating layers for graph, starting from vertex: 0
+[2025-06-06 00:41:57.968] [INFO] Calculating layers starting from vertex: 0
+[2025-06-06 00:41:57.968] [DEBUG] Vertex 1 added to layer 1
+[2025-06-06 00:41:57.968] [DEBUG] Vertex 2 added to layer 1
+[2025-06-06 00:41:57.968] [DEBUG] Vertex 3 added to layer 1
+[2025-06-06 00:41:57.968] [DEBUG] Vertex 4 added to layer 2
+[2025-06-06 00:41:57.968] [DEBUG] Vertex 5 added to layer 2
+[2025-06-06 00:41:57.968] [DEBUG] Vertex 6 added to layer 2
+[2025-06-06 00:41:57.968] [DEBUG] Vertex 7 added to layer 3
+[2025-06-06 00:41:57.969] [DEBUG] Vertex 8 added to layer 3
+[2025-06-06 00:41:57.969] [DEBUG] Vertex 9 added to layer 3
+[2025-06-06 00:41:57.969] [INFO] Layer 0 contains vertices: 0
+[2025-06-06 00:41:57.969] [INFO] Layer 1 contains vertices: 1, 2, 3
+[2025-06-06 00:41:57.969] [INFO] Layer 2 contains vertices: 4, 5, 6
+[2025-06-06 00:41:57.969] [INFO] Layer 3 contains vertices: 7, 8, 9
+[2025-06-06 00:41:57.969] [INFO] Saving layered vertices to: output_layers.txt
+[2025-06-06 00:41:57.969] [INFO] Attempting to save layered graph to file: output_layers.txt
+[2025-06-06 00:41:57.969] [INFO] Layered graph saved successfully to output_layers.txt
+[2025-06-06 00:41:57.969] [INFO] Processing completed successfully.
+[2025-06-06 00:41:57.969] [INFO] Application finished successfully.
+[2025-06-06 00:41:57.970] [INFO] Logger stopped.
+[2025-06-06 00:43:35.630] [INFO] Application started.
+[2025-06-06 00:43:35.632] [DEBUG] Graph object created.
+[2025-06-06 00:43:35.632] [INFO] Loading graph from: input_graph.txt
+[2025-06-06 00:43:35.632] [INFO] Graph data cleared.
+[2025-06-06 00:43:35.632] [INFO] Attempting to load graph from file: input_graph.txt
+[2025-06-06 00:43:35.640] [INFO] Graph loaded successfully. Vertices: 10
+[2025-06-06 00:43:35.640] [INFO] Calculating layers for graph, starting from vertex: 0
+[2025-06-06 00:43:35.640] [INFO] Calculating layers starting from vertex: 0
+[2025-06-06 00:43:35.640] [DEBUG] Vertex 1 added to layer 1
+[2025-06-06 00:43:35.640] [DEBUG] Vertex 2 added to layer 1
+[2025-06-06 00:43:35.640] [DEBUG] Vertex 3 added to layer 1
+[2025-06-06 00:43:35.640] [DEBUG] Vertex 4 added to layer 2
+[2025-06-06 00:43:35.640] [DEBUG] Vertex 5 added to layer 2
+[2025-06-06 00:43:35.640] [DEBUG] Vertex 6 added to layer 2
+[2025-06-06 00:43:35.640] [DEBUG] Vertex 7 added to layer 3
+[2025-06-06 00:43:35.640] [DEBUG] Vertex 8 added to layer 3
+[2025-06-06 00:43:35.640] [DEBUG] Vertex 9 added to layer 3
+[2025-06-06 00:43:35.640] [INFO] Layer 0 contains vertices: 0
+[2025-06-06 00:43:35.640] [INFO] Layer 1 contains vertices: 1, 2, 3
+[2025-06-06 00:43:35.640] [INFO] Layer 2 contains vertices: 4, 5, 6
+[2025-06-06 00:43:35.640] [INFO] Layer 3 contains vertices: 7, 8, 9
+[2025-06-06 00:43:35.640] [INFO] Saving layered vertices to: output_layers.txt
+[2025-06-06 00:43:35.641] [INFO] Attempting to save layered graph to file: output_layers.txt
+[2025-06-06 00:43:35.641] [INFO] Layered graph saved successfully to output_layers.txt
+[2025-06-06 00:43:35.641] [INFO] Processing completed successfully.
+[2025-06-06 00:43:35.641] [INFO] Application finished successfully.
+[2025-06-06 00:43:35.642] [INFO] Logger stopped.
+[2025-06-06 00:45:25.800] [INFO] Application started.
+[2025-06-06 00:45:25.801] [DEBUG] Graph object created.
+[2025-06-06 00:45:25.801] [INFO] Loading graph from: input_graph.txt
+[2025-06-06 00:45:25.801] [INFO] Graph data cleared.
+[2025-06-06 00:45:25.801] [INFO] Attempting to load graph from file: input_graph.txt
+[2025-06-06 00:45:25.801] [INFO] Graph loaded successfully. Vertices: 10
+[2025-06-06 00:45:25.801] [INFO] Calculating layers for graph, starting from vertex: 0
+[2025-06-06 00:45:25.801] [INFO] Calculating layers starting from vertex: 0
+[2025-06-06 00:45:25.801] [DEBUG] Vertex 1 added to layer 1
+[2025-06-06 00:45:25.801] [DEBUG] Vertex 2 added to layer 1
+[2025-06-06 00:45:25.801] [DEBUG] Vertex 3 added to layer 1
+[2025-06-06 00:45:25.801] [DEBUG] Vertex 4 added to layer 2
+[2025-06-06 00:45:25.801] [DEBUG] Vertex 5 added to layer 2
+[2025-06-06 00:45:25.801] [DEBUG] Vertex 6 added to layer 2
+[2025-06-06 00:45:25.801] [DEBUG] Vertex 7 added to layer 3
+[2025-06-06 00:45:25.802] [DEBUG] Vertex 8 added to layer 3
+[2025-06-06 00:45:25.802] [DEBUG] Vertex 9 added to layer 3
+[2025-06-06 00:45:25.802] [INFO] Layer 0 contains vertices: 0
+[2025-06-06 00:45:25.802] [INFO] Layer 1 contains vertices: 1, 2, 3
+[2025-06-06 00:45:25.802] [INFO] Layer 2 contains vertices: 4, 5, 6
+[2025-06-06 00:45:25.802] [INFO] Layer 3 contains vertices: 7, 8, 9
+[2025-06-06 00:45:25.802] [INFO] Saving layered vertices to: output_layers.txt
+[2025-06-06 00:45:25.802] [INFO] Attempting to save layered graph to file: output_layers.txt
+[2025-06-06 00:45:25.802] [INFO] Layered graph saved successfully to output_layers.txt
+[2025-06-06 00:45:25.802] [INFO] Processing completed successfully.
+[2025-06-06 00:45:25.803] [INFO] Application finished successfully.
+[2025-06-06 00:45:25.803] [INFO] Logger stopped.
+[2025-06-06 00:49:48.272] [INFO] Application started.
+[2025-06-06 00:49:48.273] [DEBUG] Graph object created.
+[2025-06-06 00:49:48.273] [INFO] Loading graph from: input_graph.txt
+[2025-06-06 00:49:48.273] [INFO] Graph data cleared.
+[2025-06-06 00:49:48.273] [INFO] Attempting to load graph from file: input_graph.txt
+[2025-06-06 00:49:48.273] [INFO] Graph loaded successfully. Vertices: 10
+[2025-06-06 00:49:48.273] [INFO] Calculating layers for graph, starting from vertex: 0
+[2025-06-06 00:49:48.273] [INFO] Calculating layers starting from vertex: 0
+[2025-06-06 00:49:48.273] [DEBUG] Vertex 1 added to layer 1
+[2025-06-06 00:49:48.273] [DEBUG] Vertex 2 added to layer 1
+[2025-06-06 00:49:48.273] [DEBUG] Vertex 3 added to layer 1
+[2025-06-06 00:49:48.273] [DEBUG] Vertex 4 added to layer 2
+[2025-06-06 00:49:48.273] [DEBUG] Vertex 5 added to layer 2
+[2025-06-06 00:49:48.273] [DEBUG] Vertex 6 added to layer 2
+[2025-06-06 00:49:48.273] [DEBUG] Vertex 7 added to layer 3
+[2025-06-06 00:49:48.273] [DEBUG] Vertex 8 added to layer 3
+[2025-06-06 00:49:48.273] [DEBUG] Vertex 9 added to layer 3
+[2025-06-06 00:49:48.273] [INFO] Layer 0 contains vertices: 0
+[2025-06-06 00:49:48.273] [INFO] Layer 1 contains vertices: 1, 2, 3
+[2025-06-06 00:49:48.273] [INFO] Layer 2 contains vertices: 4, 5, 6
+[2025-06-06 00:49:48.273] [INFO] Layer 3 contains vertices: 7, 8, 9
+[2025-06-06 00:49:48.273] [INFO] Saving layered vertices to: output_layers.txt
+[2025-06-06 00:49:48.273] [INFO] Attempting to save layered graph to file: output_layers.txt
+[2025-06-06 00:49:48.274] [INFO] Layered graph saved successfully to output_layers.txt
+[2025-06-06 00:49:48.274] [INFO] Processing completed successfully.
+[2025-06-06 00:49:48.274] [INFO] Application finished successfully.
+[2025-06-06 00:49:48.274] [INFO] Logger stopped.

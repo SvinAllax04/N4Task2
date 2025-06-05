@@ -1,0 +1,8 @@
+[2025-06-03 18:13:22.393] [INFO] Application started.
+[2025-06-03 18:13:22.395] [ERROR] Invalid number of command-line arguments. Expected 3, got 0
+[2025-06-03 18:13:22.395] [INFO] Application terminated due to incorrect arguments.
+[2025-06-03 18:13:22.395] [INFO] Logger stopped.
+[2025-06-03 18:13:26.878] [INFO] Application started.
+[2025-06-03 18:13:26.882] [ERROR] Invalid number of command-line arguments. Expected 3, got 0
+[2025-06-03 18:13:26.883] [INFO] Application terminated due to incorrect arguments.
+[2025-06-03 18:13:26.883] [INFO] Logger stopped.
